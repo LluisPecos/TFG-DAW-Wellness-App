@@ -1,0 +1,76 @@
+div button i {
+    transition: color .15s ease-in-out;
+}
+
+/* Btns edit, delete, sell, favorite */
+.btnFavorite, .btnEdit, .btnDelete, .btnSell {
+    padding: 0px !important;
+    width: 40px;
+    height: 40px;
+}
+
+.btnFavorite i, .btnEdit i, .btnDelete i, .btnSell i {
+    color: #212529;
+}
+
+/* BTN FAVORITE */
+
+/* button no-liked hover */
+button.btnFavorite.no-liked:hover {
+    background: rgb(247, 88, 131);
+    border-color: rgb(247, 88, 131) !important;
+}
+
+button.btnFavorite:hover i.no-liked {
+    color: white;
+}
+
+/* button liked hover */
+button.btnFavorite.liked:hover {
+    background: white;
+    border: 1px solid #dee2e6 !important;
+}
+
+button.btnFavorite:hover i.liked {
+    color: #212529;
+}
+
+/* i and button liked */
+button.btnFavorite.liked {
+    background: rgb(247, 88, 131);
+    border-color: rgb(247, 88, 131) !important;
+}
+
+button.btnFavorite i.liked {
+    color: white;
+    animation: liked 0.3s ease 1;
+}
+
+/* Animación liked */
+@keyframes liked {
+    0% {transform: scale(1) translateY(0px);}
+    50% {transform: scale(1.1) translateY(-1px);}
+    100% {transform: scale(1) translateY(0px);}
+}
+
+/* BTN EDIT */
+
+.btnEdit:hover {
+    background: #607d8b;
+    border: 1px solid #607d8b !important;
+}
+
+.btnEdit:hover i {
+    color: white;
+}
+
+/* BTN SELL Y BTN DELETE */
+
+.btnSell:hover, .btnDelete:hover {
+    background: rgb(247, 88, 131);
+    border: 1px solid rgb(247, 88, 131) !important;
+}
+
+.btnSell:hover i, .btnDelete:hover i {
+    color: white;
+}

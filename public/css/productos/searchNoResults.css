@@ -1,0 +1,13 @@
+.NoResultsMessage {
+    text-align: center;
+}
+
+.NoResultsMessage__title {
+    font-size: 1.25rem;
+    font-weight: inherit;
+}
+
+.NoResultsMessage__description {
+    font-size: 0.875rem;
+    color: #90a4ae;
+}

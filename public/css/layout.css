@@ -1,0 +1,225 @@
+::-moz-selection {
+    /* Code for Firefox */
+    background: #d1d1d1;
+}
+
+::selection {
+    background: #d1d1d1;
+}
+
+/* Quitar box-shadow de Bootstrap */
+textarea.form-control:focus,
+select.form-control:focus,
+input:focus,
+input[type=text]:focus,
+input[type=checkbox]:focus,
+input[type=button]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=date]:focus,
+input[type=submit]:focus,
+input[type=tel]:focus
+{
+    border-color: #17a2b8;
+    box-shadow: none;
+}
+
+/* Navbar */
+header nav.navbar {
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    margin-top: 58px;
+}
+
+/* img logo */
+header nav a.navbar-brand img {
+    width: 50.66px;
+}
+
+/* img perfil */
+div#img_perfil {
+    width: 28px;
+    height: 100%; /* 28px */
+    border: 1px solid rgba(53,72,81,.15);
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Background light grey */
+.bg_light_grey {
+    background-color: #ECEFF1 !important;
+}
+
+/* Texto azul */
+.txt_blue {
+    color: #17a2b8;
+}
+
+.txt_blue:hover {
+    color: #106A79;
+}
+
+/* Btn general */
+.btn_general {
+    border-radius: 50px !important;
+    height: 42px !important;
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+}
+
+/* Btn registro */
+#btn_reg {
+    background-color: transparent;
+    border-color: #17a2b8;
+    color: #17a2b8;
+}
+
+#btn_reg:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+/* Txt privacidad y condiciones modal registro */
+#txt_privacidad,
+#txt_condiciones {
+    filter: opacity(0.6);
+    text-decoration: underline;
+}
+
+#txt_privacidad:hover,
+#txt_condiciones:hover {
+    filter: opacity(0.8);
+}
+
+/* Input buscador */
+#ipt_buscador {
+    background: #eceff1;
+    border: 1px solid transparent;
+    height: 42px;
+    transition: border-color .15s ease-in-out, background .15s ease-in-out;
+}
+
+#ipt_buscador:focus {
+    border: 1px solid #17a2b8;
+    background-color: white !important;
+}
+
+/* img redes */
+#cont_redes > a {
+    text-decoration: none;
+}
+
+#cont_redes > a > i {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#cont_redes > a > i:hover{
+    color: rgba(23, 162, 184, 0.8);
+}
+
+/* Enlaces footer */
+#footer_list p a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#footer_list p {
+    margin-bottom: 10px;
+}
+
+#footer_list p a:hover {
+    color: rgba(23, 162, 184, 0.8);
+}
+
+/* Icon volver modal inicio/registro */
+.icon_volver, .icon_close
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.icon_volver {
+    font-size: 22px;
+    padding: 17px 16px;
+    margin: -1rem auto -1rem -1rem;
+}
+
+/* Icon close modal inicio/registro */
+.icon_close {
+    font-size: 24px;
+    padding: 16px 18.125px;
+    margin: -1rem -1rem -1rem auto;
+}
+
+.icon_close:hover,
+.icon_volver:hover
+{
+    opacity: 1;
+}
+
+/* Animación esconder alerta */
+.esconder_alert {
+    animation: esconder_alert 0s 6s ease 1 forwards;
+}
+
+@keyframes esconder_alert {
+    from{}
+    to{}
+}
+
+/* Mensaje error formularios */
+.error {
+    color: rgba(255, 0, 0, 0.6);
+    font-size: 14px;
+}
+
+/* Quitar box shadow botones */
+button:focus {
+    box-shadow: none !important;
+}
+
+/* MODAL REGISTRO */
+
+/* Inicia sesión | Regístrate */
+#modal_inicio_registro .modal-body p a,
+#modal_inicio .modal-body p a,
+#modal_registro .modal-body p a
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Img flecha-izq */
+#modal_inicio_registro .modal-header img,
+#modal_inicio .modal-header img,
+#modal_registro .modal-header img
+{
+    width: 50px;
+}
+
+/* Footer modal registro */
+#modal_footer {
+    font-size: 11px;
+}
+
+#modal_footer span {
+    opacity: 0.3;
+}
+
+/* Alerts */
+.alert {
+    cursor: pointer;
+    margin-bottom: 0px !important;
+}
+
+/* Modal */
+.modal {
+    padding-right: 0px !important;
+}

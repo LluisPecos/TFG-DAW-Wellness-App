@@ -1,0 +1,146 @@
+.product__container {
+    padding: 20px 20px 32px 20px;
+}
+
+.product__header #img_perfil,
+#carouselBiggerImgs .carousel-user #img_perfil
+{
+    height: 60px;
+    min-width: 60px;
+}
+
+
+#carouselImgs:hover {
+    cursor: pointer;
+}
+
+#carouselImgs .imgProducto
+{
+    background: white;
+    height: 500px;
+}
+
+div.productImgsContainer div#carouselImgs .imgProducto {
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* CAROUSEL BIGGER IMGS */
+
+#carouselBiggerImgs {
+    position: fixed;
+    background: #F9FAFA;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1040;
+}
+
+/* Icon closeBiggerImgs hover */
+#closeBiggerImgs:hover {
+    cursor: pointer;
+}
+
+/* Container of carousel-items */
+#carouselBiggerImgs .carousel-inner {
+    width: 100%;
+    height: 600px;
+}
+
+/* Carousel items (imgs containers) */
+#carouselBiggerImgs .carousel-inner .carousel-item {
+    text-align: center;
+    background: #F9FAFA;
+    width: 100%;
+    height: 100%;
+}
+
+#carouselBiggerImgs .carousel-inner .carousel-item div {
+    cursor: zoom-in;
+}
+
+#carouselBiggerImgs .carousel-inner .carousel-item div.zoomin {
+    transform: scale(1.5);
+    cursor: zoom-out;
+}
+
+/* Img background-image */
+#carouselBiggerImgs .carousel-inner .carousel-item div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+/* Img background-image */
+#carouselBiggerImgs .carousel-inner .carousel-item img {
+    height: 100%;
+}
+
+/* CAROUSEL FOOTER */
+#carouselBiggerImgs .carousel-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imgs footer */ 
+#carouselBiggerImgs .carousel-footer div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+/* Quitar estilos carousel-indicators */ 
+#carouselBiggerImgs .carousel-indicators {
+    position: static;
+    margin: 0px;
+}
+
+#carouselBiggerImgs .carousel-footer div.active {
+    opacity: 1;
+}
+
+#carouselBiggerImgs .carousel-footer div:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+/* Next / prev arrows */
+
+/* With rounded white background */
+.carousel-control-prev div,
+.carousel-control-next div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+}
+
+/* Icon left/right arrow */
+.carousel-control-prev i,
+.carousel-control-next i
+{
+    color: black;
+}
+
+/* Carousel user */
+
+#carouselBiggerImgs .carousel-user {
+    width: 70%;
+    margin: auto;
+}

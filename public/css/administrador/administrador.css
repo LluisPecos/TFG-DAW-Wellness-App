@@ -1,0 +1,30 @@
+/* Width modal product info */
+.product_info .modal-dialog {
+    max-width: 80%;
+}
+
+/* Close icon product info */
+.product_info .modal-dialog .modal-content i {
+    padding: 16px 16px 0px 16px;
+    cursor: pointer;
+}
+
+/* hr product info */
+.product_info .modal-dialog .modal-content .modal-body hr {
+    border-top: 1px solid black;
+}
+
+/* Quit line-height of <i> container */
+#userProductsTable tbody tr td div {
+    line-height: 1;
+}
+
+/* Actions icons */
+#userProductsTable tbody tr td i.fal {
+    cursor: pointer;
+}
+
+/* Hover actions icons */
+#userProductsTable tbody tr td i:hover {
+    color: black !important;
+}

@@ -1,0 +1,23 @@
+#home-card {
+    margin-bottom: 20px;
+}
+
+.firstProducts .card-img-top,
+.secondProducts .card-img-top
+{
+    height: 200px;
+}
+
+.firstProducts .card-img-top img,
+.secondProducts .card-img-top img
+{
+    height: 180px;
+}
+
+.firstProducts .card-img-top {
+    background-color: #ffde6b;
+}
+
+.secondProducts .card-img-top {
+    background-color: #b2fa89;
+}

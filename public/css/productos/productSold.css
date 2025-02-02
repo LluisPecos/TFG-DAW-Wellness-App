@@ -1,0 +1,56 @@
+/* Img vendido */
+.imgContainer {
+    position: relative;
+}
+
+/* containerIconSold */
+.imgContainer div.containerIconSold
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: rgba(37, 50, 56, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer div.containerIconSold i
+{
+    padding: 9px 7px 9px 7px;
+    background: white;
+    color: #dc3545;
+    border-radius: 50%;
+}
+
+/* containerLargeIconSold */
+.imgContainer .backgroundLargeIconSold{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    background: rgba(37, 50, 56, 0.5);
+}
+
+div.containerLargeIconSold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: white;
+    padding: 15px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 50%);
+    
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+div.containerLargeIconSold i {
+    color: #dc3545;
+}
+
+div.containerLargeIconSold i span {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}

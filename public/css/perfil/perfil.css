@@ -1,0 +1,19 @@
+#profile__container div.profile__section {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #eceff1;
+}
+
+#upload__photo input[type=file] {
+    display: none;
+}
+
+.imgName {
+    display: block;
+    font-size: 14px;
+}
+
+.profile__section #form__profile div#img_perfil {
+    min-width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,8 @@
+.datosPerfil {
+    border-radius: 10px;
+}
+
+.datosPerfil div#img_perfil {
+    width: 60px;
+    height: 60px;
+}

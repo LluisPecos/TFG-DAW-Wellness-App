@@ -1,0 +1,50 @@
+body main {
+    margin-top: 113px;
+}
+
+body header nav.navbar {
+    box-shadow: unset;
+}
+
+#filtros {
+    position: fixed;
+    top: 58px;
+    background: white;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+#filtros hr,
+#filtros > div
+{
+    overflow: auto;
+}
+
+#filtros .filterContainer {
+    margin-right: 10px;
+    min-width: 220px;
+}
+
+#filtros p.input__iconWrapper input,
+#filtros p.input__iconWrapper select
+{
+    min-width: 200px;
+    width: 240px;
+    border-radius: 50rem;
+}
+
+/*
+@media only screen and (max-width: 767px) {
+    body main {
+        margin-top: 167px;
+    }
+    
+}
+
+@media only screen and (max-width: 575px) {
+    body main {
+        margin-top: 251px;
+    }
+}
+*/

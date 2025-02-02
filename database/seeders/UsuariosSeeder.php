@@ -1,0 +1,161 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use DB;
+
+class UsuariosSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        // Insertar datos
+        DB::table('usuarios')->insert([
+            [
+                'id_usuario' => 1,
+                'nombre' => 'Lluís',
+                'apellidos' => 'Suau',
+                'email' => 'lluis@gmail.com',
+                'contraseña' => '$2y$10$mg912gaWxuzuB6sLsd.lEubWbMzSnD.pytLwa67KJrdyE3.QKFMge',
+                'img_perfil' => 'imgs/perfil/default.svg',
+                'fecha_nacimiento' => null,
+                'genero' => null,
+                'telefono' => null,
+                'rol' => 'usu',
+                'created_at' => '2021-06-20 16:28:52',
+                'updated_at' => null,
+            ],
+            [
+                'id_usuario' => 2,
+                'nombre' => 'Alfonso',
+                'apellidos' => 'Sánchez',
+                'email' => 'alfonso@gmail.com',
+                'contraseña' => '$2y$10$XJFIQgwFNhfOg2HF6IIAPuqZaJRuzKiglGATRqSYPHCCwyc99NZAi',
+                'img_perfil' => 'imgs/perfil/default.svg',
+                'fecha_nacimiento' => null,
+                'genero' => null,
+                'telefono' => null,
+                'rol' => 'adm',
+                'created_at' => '2021-06-20 16:28:52',
+                'updated_at' => null,
+            ],
+            [
+                'id_usuario' => 3,
+                'nombre' => 'Paco',
+                'apellidos' => 'González',
+                'email' => 'paco@gmail.com',
+                'contraseña' => '$2y$10$LoqtfNIIdPURdbrfFhjEQOGWhjOg7OhIeDxy6sopKPd1eB0ZuKUGK',
+                'img_perfil' => 'imgs/perfil/default.svg',
+                'fecha_nacimiento' => null,
+                'genero' => null,
+                'telefono' => null,
+                'rol' => 'usu',
+                'created_at' => '2021-06-20 16:28:52',
+                'updated_at' => null,
+            ],
+            [
+                'id_usuario' => 4,
+                'nombre' => 'María',
+                'apellidos' => 'Carmen',
+                'email' => 'maria@gmail.com',
+                'contraseña' => '$2y$10$M.iU1mWQHToebrLQL.M77uTouC19roZtgMdHG2eImG6VVSIYpfiea',
+                'img_perfil' => 'imgs/perfil/default.svg',
+                'fecha_nacimiento' => null,
+                'genero' => null,
+                'telefono' => null,
+                'rol' => 'usu',
+                'created_at' => '2021-06-20 16:28:52',
+                'updated_at' => null,
+            ],
+            [
+                'id_usuario' => 5,
+                'nombre' => 'Antonio',
+                'apellidos' => 'Fernández',
+                'email' => 'antonio@gmail.com',
+                'contraseña' => '$2y$10$0olRCda51uEsb/TASJPHjuGeBBVsB7uBlv2rU4mZuJfjrT6NA1HuC',
+                'img_perfil' => 'imgs/perfil/default.svg',
+                'fecha_nacimiento' => null,
+                'genero' => null,
+                'telefono' => null,
+                'rol' => 'usu',
+                'created_at' => '2021-06-20 16:28:52',
+                'updated_at' => null,
+            ],
+            [
+                'id_usuario' => 6,
+                'nombre' => 'Manuel',
+                'apellidos' => 'López',
+                'email' => 'manuel@gmail.com',
+                'contraseña' => '$2y$10$3ysAmLE1pnJ52ey4ihry9OTic7sbvheKvVDdMb35IgXCWTHI7weT2',
+                'img_perfil' => 'imgs/perfil/default.svg',
+                'fecha_nacimiento' => null,
+                'genero' => null,
+                'telefono' => null,
+                'rol' => 'usu',
+                'created_at' => '2021-06-20 16:28:52',
+                'updated_at' => null,
+            ],
+            [
+                'id_usuario' => 7,
+                'nombre' => 'David',
+                'apellidos' => 'Martinez',
+                'email' => 'david@gmail.com',
+                'contraseña' => '$2y$10$8LDauV26ZeyiFgZY.zPiS.q18Myk4OUqZdrWZTZSVbXjAXuPjEijK',
+                'img_perfil' => 'imgs/perfil/default.svg',
+                'fecha_nacimiento' => null,
+                'genero' => null,
+                'telefono' => null,
+                'rol' => 'usu',
+                'created_at' => '2021-06-20 16:28:52',
+                'updated_at' => null,
+            ],
+            [
+                'id_usuario' => 8,
+                'nombre' => 'Daniel',
+                'apellidos' => 'Rodríguez',
+                'email' => 'daniel@gmail.com',
+                'contraseña' => '$2y$10$Ua2A8WfawxTRz0Cjo5AI7uLDjrMCK8gp84.48u4.5OoappkXagEF.',
+                'img_perfil' => 'imgs/perfil/default.svg',
+                'fecha_nacimiento' => null,
+                'genero' => null,
+                'telefono' => null,
+                'rol' => 'usu',
+                'created_at' => '2021-06-20 16:28:52',
+                'updated_at' => null,
+            ],
+            [
+                'id_usuario' => 9,
+                'nombre' => 'Josefa',
+                'apellidos' => 'Dolores',
+                'email' => 'josefa@gmail.com',
+                'contraseña' => '$2y$10$0mSeAn/dz9exaGUPqisK8emL5Vlzayxe5SSn1LiK14rd29b/uqelK',
+                'img_perfil' => 'imgs/perfil/default.svg',
+                'fecha_nacimiento' => null,
+                'genero' => null,
+                'telefono' => null,
+                'rol' => 'usu',
+                'created_at' => '2021-06-20 16:28:52',
+                'updated_at' => null,
+            ],
+            [
+                'id_usuario' => 10,
+                'nombre' => 'Laura',
+                'apellidos' => 'Jiménez',
+                'email' => 'laura@gmail.com',
+                'contraseña' => '$2y$10$qI8ky0vJAZg5h81KMC2IUO4xh1dUtevFryxWXFYeW89YQ.XaDNUZC',
+                'img_perfil' => 'imgs/perfil/default.svg',
+                'fecha_nacimiento' => null,
+                'genero' => null,
+                'telefono' => null,
+                'rol' => 'usu',
+                'created_at' => '2021-06-20 16:28:52',
+                'updated_at' => null,
+            ],
+        ]);
+    }
+}

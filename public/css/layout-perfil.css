@@ -1,0 +1,84 @@
+main {
+    margin-left: 90px;
+    background: rgba(236, 239, 241, 0.6);
+}
+
+footer {
+    margin-left: 90px !important;
+    display: none !important;
+}
+
+#left__nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#left__nav ul {
+    background: #253238;
+    width: 90px;
+    height: 100%;
+    list-style-type: none;
+}
+
+main {
+    min-height: 100vh;
+}
+
+#left__nav ul a {
+    text-decoration: none;
+}
+
+#left__nav ul a li {
+    cursor: pointer;
+}
+
+#left__nav ul a li > div {
+    padding: 15px 15px 0px 15px;
+    width: 100%;
+}
+
+#left__nav ul a li div div#img_perfil {
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgba(53, 72, 81, 1);
+}
+
+#left__nav ul a li
+{
+    opacity: 0.5;
+    transition: opacity 0.1s ease;
+}
+
+#left__nav ul a li i {
+    padding: 15px;
+    background: rgba(53, 72, 81);
+    color: rgba(255, 255, 255);
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+#left__nav ul a li p {
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+/* Hover a change li */
+#left__nav ul a:hover li
+{
+    opacity: 1;
+}
+
+/* Highlight current page */
+#left__nav ul a.active li
+{
+    opacity: 1;
+}
+
+#left__nav ul a.active li i {
+    background: #13c1ac;
+}
